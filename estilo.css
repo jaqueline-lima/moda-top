@@ -1,0 +1,53 @@
+div#principal {
+    color: #300;
+    background-color: #ffe6e6;
+    font-family: 'Quicksand', sans-serif;
+}
+
+div#titulo {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+}
+
+li {
+    display: inline-flex;
+    padding: 10px;
+    color: black;
+}
+
+li:hover {
+    color: aqua;
+    background-color: #ffb3b3;
+}
+
+div#conteudo {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.produto {
+    flex: 0 1 auto;
+    width: 23%;
+    height: auto;
+    justify-content: center;
+}
+
+img {
+    width: 95%;
+    height: auto;
+}
+
+.container-produtos {
+    display: flex;
+    justify-content: space-between;
+}
