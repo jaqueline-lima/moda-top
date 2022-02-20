@@ -5,7 +5,13 @@ div#principal {
 }
 
 div#titulo {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo img {
+    width: 15%;
 }
 
 ul {
@@ -30,11 +36,6 @@ li:hover {
 
 li a:hover {
     color: #00001a;
-}
-
-div#conteudo {
-    display: flex;
-    justify-content: space-around;
 }
 
 footer {
@@ -62,4 +63,24 @@ footer {
 .container-produtos {
     display: flex;
     justify-content: space-between;
+}
+
+#conteudo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links {
+    flex: 0 1 auto;
+    width: 33%;
+    height: auto;
+}
+
+.links img {
+    width: 100%;
+    height: auto;
+}
+
+.links:hover{
+    width: 38%;
 }
