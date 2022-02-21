@@ -18,16 +18,17 @@ ul {
     display: flex;
     justify-content: space-evenly;
     background-color: beige;
+    flex-wrap: wrap;
 }
 
 li {
     display: inline-flex;
     padding: 10px;
-    color: black;
 }
 
 a {
     text-decoration: none;
+    color: #006;
 }
 
 li:hover {
@@ -48,10 +49,11 @@ footer {
     width: 23%;
     height: auto;
     justify-content: center;
+    border: 3px solid #300;
 }
 
 .produto img {
-    width: 95%;
+    width: 100%;
     height: auto;
 }
 
@@ -88,9 +90,9 @@ footer {
 #contatos {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #contatos img {
     width: 100px;
 }
-
